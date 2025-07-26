@@ -1001,8 +1001,10 @@ font-size: 30px;
 .call-to-ac{
     padding: 50px 15px;
 }
+	.subscribe:before{
+	display: none;	
 }
-
+}
 
 @media only screen and (max-width: 881px) and (min-width: 768px){
     .space{
