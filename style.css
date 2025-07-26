@@ -1,0 +1,1084 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+::-webkit-scrollbar{
+    width: 10px;
+    height: 30px;
+}
+::-webkit-scrollbar-track{
+    background-color: #212529;
+   
+}
+::-webkit-scrollbar-thumb{
+    background: #2095ae;
+        border-radius: 30px;
+
+}
+::selection {
+  
+  background: #2095ae;
+  color: #fff;
+}
+
+.main-navigation{
+    position: relative;
+    z-index: 999;
+
+}
+
+.top-header{
+    background-image:linear-gradient(to bottom,#0f24546d ,#0f24546d),url(assets/banner1.jpg);
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* animation: zoom-in ease-in-out;
+        animation-duration: 5000ms; 
+        transition: 0.5s; */
+}
+.top-header-abt{
+ background-image:linear-gradient(to bottom,#0f24546d ,#0f24546d),url(assets/abt.jpg);
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.top-header-tours{
+ background-image:linear-gradient(to bottom,#0f24546d ,#0f24546d),url(assets/tours.jpg);
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.top-header-destination{
+    background-image:linear-gradient(to bottom,#0f24546d ,#0f24546d),url(assets/destination.jpg);
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+.top-header-contact{
+background-image:linear-gradient(to bottom,#0f24546d ,#0f24546d),url(assets/contact.jpg);
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+ /* @keyframes zoom-in{
+    0%{
+transform: scale(1.5) translate(-10%, 10%);
+
+    }
+    100%{
+        transform: scale(1) translate(0,0);
+
+    }
+}  */
+
+.logo{
+width: 70%;
+}
+h1.hero-heading{
+    font-size: 75px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h2.hero-heading{
+font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h3.hero-heading{
+font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    color: #212529;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ text-transform: uppercase;   
+}
+p.sub-description{
+    font-family: 'Barlow';
+    color:#fff;
+    letter-spacing: 5px;
+    text-align: center;
+}
+p.description{
+ font-family: 'Barlow';
+    color:#fff;
+
+}
+.best-travel p.sub-description{
+font-family: 'Barlow';
+    color: #2095ae;
+    text-align: left;
+}
+span.sub-text{
+font-family: 'Barlow';
+font-size: 40px;
+font-weight: 700;
+color:#2095ae;
+}
+
+.best-travel p.description{
+color: #676977;
+font-size: 16px;
+font-weight: 400;
+    line-height: 1.75em;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.space{
+padding-top: 120px;
+padding-bottom: 80px;
+}
+.h1-text{
+color: transparent;
+    -webkit-text-stroke: 1px #fff;
+}
+
+.forms{
+background-color: #f4f5f8;
+padding: 50px;
+}
+
+button.fotm-btn {
+    border-radius: 5px;
+    padding: 10px 25px;
+    border: 1px solid #0f2454;
+    background-color: #2095ae;
+    color: #fff;
+}
+button.fotm-btn:hover {
+background-color: #0f2454;
+border: 1px solid #2095ae;
+}
+
+h3.form-heading{
+font-size: 35px;
+font-weight: 700;
+font-family: 'Barlow';
+color: #2095ae;
+text-align: center;
+padding: 10px;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url(assets/barlow-2/Barlow-Medium.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+.top-header, .top-header-abt, .top-header-tours, .top-header-destination, .top-header-contact{
+margin-top: -100px;
+}
+ .top-header, .top-header-abt, .top-header-tours, .top-header-destination, .top-header-contact{
+display: flex;
+justify-content: center;
+align-items: center;
+
+flex-direction: row;
+
+} 
+
+ul li a{
+    font-family: 'Barlow';
+    font-size: 18px;
+    font-weight: 500;
+   
+}
+a.nav-link {
+    color: #fff;
+}
+a.nav-link:hover {
+    color: #2095ae;
+}
+
+div#offcanvaslide {
+    background-color: #0f2454;
+}
+.travel-img{
+    width: 70%;
+    height:auto;
+
+}
+.images{
+position: relative;
+overflow: hidden;
+}
+.img-gallery{
+width: 100%;
+
+}
+.img-gallery:hover{
+width: 102%;
+transition:0.5s !important;
+}
+
+/* .img-sec::before {
+    content: '';
+    position: absolute;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+} */
+
+ .img-sec{
+position: relative;
+}
+ .img-sec::before {
+    content: '';
+    position: absolute;
+    background-color: #2095ae;
+    width: 70%;
+    height: 100%;
+    top: 40px;
+    z-index: -1;
+    right: 60px;
+    
+} 
+
+
+.img-sec::after {
+    content: '';
+    background-image: url(assets/dots.png);
+   
+    width: 300px;
+    height: 300px;
+    top: -60px;
+    bottom: 50px;
+    left:40px;
+    
+    z-index: -1;
+    position: absolute;
+    animation: rotate-circle;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+   
+}
+
+@keyframes rotate-circle {
+    0%{
+        transform: translateY(0);;
+    }
+    40%{
+        transform:translateY(-30px);
+    } 
+    100%{
+        transform: translateY(0);
+    }
+    
+}
+.pods{
+padding-bottom: 100px;
+}
+
+
+.pods-img-sec{
+background-image: linear-gradient(to bottom, #00000057, #00000056),url(assets/maldives1.jpg);
+height: 500px;
+background-size: cover;
+background-position: center center;
+
+}
+.pods-main .pods-img-sec{
+    background-size:100% !important;
+	transition:0.5s !important;
+}
+.pods-main:hover .pods-img-sec{
+    background-size:120% !important;
+	transition:0.5s !important;
+background-color: #000;
+}
+
+.pods-img-sec {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+.pods-text{
+padding: 20px;
+width: 100%;
+}
+.pods-main{
+position: relative;
+overflow: hidden;
+}
+.pods-main .pods-text{
+    position:absolute !important;
+	bottom:-75px !important;
+	transition:0.5s !important;
+
+}
+.pods-main:hover .pods-text{
+	bottom:15px !important;
+	transition:0.5s !important;
+    }
+.pods-main:hover .line{
+width: 100%;
+transition:  0.3s ease-in-out all;
+;
+}
+
+h5.pods-heading{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 800;
+    padding-bottom: 10px;
+
+}
+.pods-desc{
+font-size: 18px;
+    color: #fff;
+        padding-top: 10px;
+
+}
+.line{
+width: 30%;
+height: 2px;
+background-color: #f0f0f0;
+transition: 0.3s ease-in-out all;
+}
+
+.usps-bg{
+background-image: linear-gradient(to bottom, #0000002b, #000),url(assets/usps-bg.jpg);
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+height: 400px;
+background-attachment: fixed;
+}
+
+ .usps-icons{
+padding: 20px;
+margin-bottom: 40px;
+position: relative;
+overflow: hidden;
+
+
+}
+
+.front {
+    font-size: 28px;
+    color: #fff;
+} 
+.back {
+    font-size: 28px;
+    color: #fff;
+}
+
+.icon i {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding:15px;
+    border: 5px solid #fff;
+}
+.icon .back{
+background-color: rgb(131, 10, 113);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 15px;
+    border: 5px solid #ffffff30;
+    transform: translateX(150%);
+    position: absolute;
+    transition: 0.5s;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+}
+
+.icon:hover .back{
+    transform: translateX(0%);
+     transition: 0.5s;
+     
+}
+
+.bi-truck::before {
+    font-size: 35px;
+   
+}
+
+h3.hero-heading{
+    font-family: 'Barlow';
+    font-size: 35px;
+    color: #212529
+}
+
+p.description-text{
+color: #676977;
+font-size: 16px;
+font-weight: 400;
+    line-height: 1.75em;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-family: 'Barlow';
+
+}
+button.accordion-button.collapsed {
+    font-size: 20px;
+    font-weight: 500;
+    color: #f0f0f0;
+    font-family: 'Barlow';
+}
+button.accordion-button{
+    font-size: 20px;
+    font-weight: 500;
+    color: #212529;
+    font-family: 'Barlow';
+    background-color: #2095ae;
+}
+.accordion-item {
+    margin-bottom: 10px;
+    border: 0px !important;
+    background-color: rgb(250, 247, 247) !important;
+}
+.countrys{
+padding: 0px 0px 100px 0px;
+}
+.why-tours{
+border: 1px solid #e7e7e7;
+margin-bottom: 10px;
+border-radius: 10px;
+}
+img.img-tours {
+    width: 100%;
+}
+.abot-tours h3.hero-heading, .abt-travel h3.hero-heading{
+    font-family: 'Barlow';
+    font-size: 20px;
+    color: #212529
+}
+.why-tours{
+    position: relative;
+    overflow: hidden;
+}
+.why-tours::before {
+    content: '';
+    position: absolute;
+    background-color: #2095ae;
+    top: 0;
+    left: -100%;
+    bottom: 0px;
+    transition: 0.5s;
+    z-index: -1;
+    width: 100%;
+    height:100%;
+    transform: rotate(360deg);
+}
+.tours-text{
+z-index: 5;
+}
+.why-tours:hover::before{
+left: 0px;
+transition: 0.5s;
+color: #fff;
+}
+.why-tours:hover .tours-text h3, .why-tours:hover .tours-text p {
+color: #fff;
+}
+
+.tours-img{
+    position: relative;
+    overflow: hidden;
+}
+
+.tours-img::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color:#ffffff4d;
+    width: 100%;
+    height: 0%;
+    transition: 0.8s;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    z-index: 1;
+}
+.tours-img:hover::before{
+    height: 100%;
+     transition: 0.8s;
+    background-color: transparent;
+}
+.abot-tours h1, .image-gallery h1{
+color: #212529;
+font-size: 45px;
+font-family: 'Barlow';
+padding-bottom: 50px;
+}
+
+.abot-tours{
+padding: 50px 0px 100px 0px;
+}
+.image-gallery{
+padding: 0px 0px 100px 0px;
+}
+
+.footer{
+background-color: #0f2454;
+}
+.ftr-text{
+color: #fff;
+font-family: 'Barlow';
+padding-top: 10px;
+}
+
+.btm-ftr{
+background-color: #2095ae;
+}
+
+.btm-ftr p{
+margin: 0px;
+padding: 10px;
+}
+
+.footer{
+padding: 100px 0px 80px 0px;
+}
+
+#preloader{
+background: #2095ae url(assets/procedural-generation-11379_128.gif) no-repeat center center;
+position: fixed;
+height: 100vh;
+width: 100%;
+z-index: 100;
+}
+
+.img-abt{
+background-image: linear-gradient(to left, #08919b8f, #08d0b538), url(assets/beyond.png)  ;
+width: 100%;
+background-size: cover;
+height:300px;
+background-repeat: no-repeat;
+background-position: center center;
+border-radius: 10px;
+
+
+}
+.img-abt2{
+background-image: linear-gradient(to left, #08919b8f, #08d0b538), url(assets/bali.png)  ;
+width: 100%;
+background-size: cover;
+height: 300px;
+background-repeat: no-repeat;
+background-position: center center;
+border-radius: 10px;
+
+
+}
+
+.img-abt2 h3.hero-heading, .img-abt h3.hero-heading{
+color: #fff;
+}
+.abt-travel{
+padding: 0px 0px 80px 0px;
+}
+
+
+.animation{
+border: 1px solid #eeefef72;
+padding: 20px;
+}
+
+.animation{
+    position: relative;
+    overflow: hidden;
+}
+
+.usps-content{
+z-index: 99;
+position: relative;
+}
+.usps-content h3, .usps-content p{
+color: #fff;
+font-family: 'Barlow';
+
+}
+
+.practice{
+padding: 80px;
+}
+
+.practice{
+background-image: linear-gradient(to bottom, #0000002b, #000),url(assets/usps-bg.jpg);
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+height: 400px;
+padding:50px;
+}
+ .animation::before {
+    content: '';
+    position: absolute;
+    background-color: #000000;
+    top: 0;
+    width: 100%;
+    transition: all 0.4s ease-out;
+    left:0;
+    height: 0%;
+    /* transform: skew(150deg); */
+    
+ }
+
+ .animation:hover::before {
+    height: 100%;
+ }
+
+.animation:after{
+
+ content: '';
+    position: absolute;
+    background-color: #000000;
+    right: 0;
+    width: 100%;
+    transition: all 0.4s ease-out;
+    height: 0%;
+    bottom:0;
+   
+
+
+}
+.animation:hover::after{
+height: 50%;
+} 
+
+.usps-icon{
+width:80px;
+}
+
+.animation:hover img.usps-icon{
+    transform: rotateY(180deg);
+    transition: 0.5s;
+    filter: brightness(0) saturate(100%) invert(51%) sepia(46%) saturate(700%) hue-rotate(143deg) brightness(89%) contrast(92%);
+}
+.animation:hover h3{
+    color: #2095ae;
+}
+
+.text-tabs {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+
+.tab-btn{
+width: 100%;
+height:70px;
+padding: 20px;
+font-size: 20px;
+}
+
+.call-to-ac{
+    background-color: #2095ae;
+    padding: 100px 50px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+ .cta-heading{
+font-family: 'Barlow';
+    font-size: 45px;
+    font-weight: 600;
+    color: #fff;
+}
+
+p.cta-desc{
+    color: #fff;
+   font-family: 'Barlow';
+text-align: justify;
+}
+
+.cta{
+position: relative;
+overflow: hidden;
+}
+
+.call-to-ac::before {
+    content: '';
+    position: absolute;
+    background-image: url(assets/people.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 477px;
+    height: 487px;
+    right: 0px;
+    bottom: -46px;
+    left: 60%;
+}
+
+.abt-travel p{
+color: #ffffff;
+font-family: 'barlow';
+}
+
+.abtimg-sec{
+width: 100%;
+}
+h3.abt-heading{
+    font-family: 'Barlow';
+    font-size: 40px;
+}
+.abt-travel-desc p.description{
+font-family: 'Barlow';
+font-size: 16px;
+text-align: justify;
+color: #676977
+    
+}
+h3.pods-heading {
+    font-size: 55px;
+    font-family: 'barlow';
+    color: #ffffff;
+    font-weight: 700;
+}
+
+i.bi.bi-facebook, i.bi.bi-instagram, i.bi.bi-twitter-x{
+    
+    font-size: 30px;
+    color: #fff;
+    margin: 10px;
+}
+i.bi.bi-facebook:hover, i.bi.bi-instagram:hover, i.bi.bi-twitter-x:hover {
+    color: #2095ae;
+}
+button.hero-btn {
+    padding: 10px 25px;
+    border: 0px;
+    background-color: #0f2454;
+
+    color: #fff;
+    font-size: 18px;
+}
+button.hero-btn:hover {
+    background-color: #2095ae;
+}
+
+.footer{
+    position: relative;
+    overflow: hidden;
+}
+
+.subscribe:before{
+content:'';
+position: absolute;
+background-image: url(assets/7.png);
+width: 282px ;
+height:287px;
+bottom:-50px;
+right: 20px;
+background-repeat: no-repeat;
+animation: rotate-circle;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+   
+}
+
+@keyframes rotate-circle {
+    0%{
+        transform: translateY(0);;
+    }
+    40%{
+        transform:translateY(-30px);
+    } 
+    100%{
+        transform: translateY(0);
+    }
+    
+}
+
+.corousel-img img{
+width: 100%;
+}
+
+/* .moving-nos{
+font-size:30px;
+} */
+
+/* .hero-btn{
+position: relative;
+overflow: hidden;
+}
+button.hero-btn:before{
+content:'';
+position: absolute;
+} */
+/* .usps-icons{
+    position: relative;
+    overflow: hidden;
+
+}
+
+ /* .usps-bg .icon .front{
+    background-color: #000;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    border: 7px solid red;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 60px;
+    color: #fff;
+    
+}  */
+
+/* i.bi.bi-truck.front {
+   position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    line-height: 80px;
+    border-radius: 50%;
+    background: rgb(116 0 0 / 20%);
+    backdrop-filter: blur(5px);
+    width:500px;
+    height: 500px;
+   
+} 
+i.bi.bi-truck.back {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    line-height: 80px;
+    border-radius: 50%;
+    width:500px;
+    height: 500px;
+   
+    -webkit-backdrop-filter: blur(5px);
+    transform: translateX(120%);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    color: #fff;
+   
+}
+
+.usps-icons:hover i.bi.bi-truck.back{
+    opacity: 1;
+    transition: 0.5s;
+     transform: translateX(0%);
+}
+
+.usps-bg .icon .front i{
+    background-color: #2095ae;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    line-height: 80px;
+    border-radius: 50%;
+    backdrop-filter: blur(5px);
+    width: 80px;
+    height: 80px;
+}
+.usps-icons:hover .icon i{
+    transition: 0.5s ease all;
+}   */
+
+ /* .video{
+width: 100%;
+
+
+}    */
+
+
+/* .pods-text{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: end;
+} */
+
+/* .travel-img::before {
+    background-color: red;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 60px;
+    left: 30px;
+    right:0px;
+    bottom:0px;
+    z-index: 1;
+} */
+
+
+/*---Media Querie----*/
+@media only screen and (max-width: 500px) and (min-width: 200px){
+    h1.hero-heading{
+        font-size: 40px;
+    }
+    .top-header, .top-header-abt, .top-header-tours, .top-header-destination, .top-header-contact {
+    margin-top: -117px;
+}
+.space, .abt-travel{
+padding: 30px 10px;
+}
+.footer{
+   padding: 30px 10px; 
+}
+.img-sec::before {
+        right: 20px;
+        top: 30px;
+     }
+     .img-sec::after {
+        display: none;
+     }
+     .top-header{
+        height: 500px;
+
+     }
+     .hero-heading{
+        padding: 15px;
+
+     }
+     .pods-main{
+        margin: 10px;
+
+     }
+     .pods-img-sec{
+        height: 400px;
+     }
+     .pods{
+padding-top: 50px;
+}
+.countrys{
+padding: 50px 0px;
+}
+.abot-tours h1{
+font-size: 30px;
+}
+.abot-tours{
+padding: 0px 0px 50px 0px;
+}
+.image-gallery{
+    padding: 0px 10px 10px;
+}
+.practice{
+    height: auto;
+    padding: 30px 8px;
+}
+.animation {
+    margin: 5px;
+}
+.text-tabs {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1px;
+}
+.cta-heading{
+font-size: 30px;
+}
+.call-to-ac::before{
+    display: none;
+}
+.call-to-ac{
+    padding: 50px 15px;
+}
+}
+
+
+@media only screen and (max-width: 881px) and (min-width: 768px){
+    .space{
+padding: 50px 30px;
+}
+.img-sec::before {
+        right: 20px;
+     }
+     .img-sec::after {
+        display: none;
+     }
+     .pods-img-sec {
+        height: 285px;
+    }
+    img.logo-ftr {
+    width: 182px;
+}
+.practice{
+    height: 600px;
+}
+.cta-heading{
+font-size: 40px;
+}
+.call-to-ac::before{
+    display: none;
+} 
+
+.call-to-ac{
+    padding:80px 35px;
+}
+
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1100px){
+     .img-sec::before {
+        right: 40px;
+     }
+     .img-sec::after {
+        display: none;
+     }
+     .pods-img-sec{
+        height: 400px;
+     }
+     .practice{
+    height: 500px;
+}
+h2.cta-heading{
+font-size: 35px;
+}
+.call-to-ac::before {
+    content: '';
+    position: absolute;
+    background-image: url(assets/people.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 38%;
+    height: 487px;
+    right: 0px;
+    bottom: -120px;
+    left: 57%;
+}
+
+}
+
+/* @media only screen and (min-width: 768px) and (max-width: 1024px){
+     .img-sec::before {
+        right: 40px;
+     }
+
+} */
+    
+
+
+
+
+
+
+
